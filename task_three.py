@@ -33,6 +33,13 @@ from models.datamodels.species import Species_
 
 if __name__ == "__main__":
 
+<<<<<<< HEAD
+    film_object = Film()
+    total_films = film_object.get_count()
+    print(total_films)
+
+# Feature1
+=======
     character_data = Character().get_sample_data()
     character_data = Character_(**character_data)
 
@@ -52,3 +59,5 @@ if __name__ == "__main__":
     vehicles_data = Vehicle_(**vehicles_data)
 
     breakpoint()
+
+# changes done from pallavi
